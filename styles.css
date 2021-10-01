@@ -1,0 +1,53 @@
+.img-PS{
+    background-image: url("assets/ayips.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img-content {
+    background-image: url("assets/ayicontent.jpg");
+    width: 777px;
+    height: 584px;
+    left: 0px;
+    top: 1451px;
+    background-blend-mode: screen;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.img-design{
+    background-image: url("assets/ayidesign.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 783px;
+    width: 944px;
+}
+
+.img-cidi{
+    background-image: url("assets/pantalla-cidi.png");
+    background-size: cover;
+    height: 614px;
+    width: 853px;
+    left: 658px;
+    top: 4124px;
+    border-radius: 0px;
+
+}
+
+.logo-ayi{
+    background-image: url("assets/AyiGroup-logo1.png");
+    background-size: cover;
+    width: 246px;
+    height: 232px;
+    left: 96px;
+    top: 4819px;
+}
+
+.nombre-ayi{
+    background-image: url("assets/AyiGroup-logo2.png");
+    background-size: cover;
+    width: 427px;
+    height: 151px;
+    left: 18px;
+    top: 5039px;
+}
