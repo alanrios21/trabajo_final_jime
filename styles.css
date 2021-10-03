@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 
 
 .poppins{
@@ -14,8 +19,8 @@
 
 .img-ux{
     background-image: url("assets/img-ux.png");  
-    height: 1280px;
-    width: 100%;
+    height: 783px;
+    width: 1149px;
     background-size: 750px;
     background-repeat: no-repeat;
     
@@ -28,30 +33,30 @@
 }
 
 .primer-div{
-     margin-top: 40px;
-     margin-left: 60px;
+     margin-top: 142px;
+     margin-left: 49.5px;
 }
 
 .segundo-div{
-    margin-top: 200px;
-    margin-left: 550px;
+    margin-top: 50px;
+    
 }
 
 .img-ux-content{
     background-image: url("assets/photo-1586717791821-3f44a563fa4c.jpg");
-    height: 783px;
-    width: 1149px;
-    background-blend-mode: multiply;
+    width: 777px;
+    height: 584px;
+    background-blend-mode: screen;
     background-size: cover;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   
 }
 
 .img-ui{
     background-image: url("assets/ux-indonesia-qC2n6RQU4Vw-unsplash.jpg");
     height: 783px;
     width: 1149px;
-    background-blend-mode: multiply;
     background-size: cover;
+    background-blend-mode: screen;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -84,31 +89,33 @@
     background: linear-gradient(270deg, rgba(27, 79, 157, 0.4) 0%, rgba(28, 28, 27, 0.2) 52.08%, rgba(28, 28, 27, 0.4) 100%), #1B4F9D;
     color: #FFFFFF;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+   
 }
 
 .offerings{
     font-family: 'Poppins', sans-serif;
-    font-size: 37px;
+    font-size: 40px;
     font-weight: 200;
     position: relative;
     left:4.5%;
     right: 1.71%;
     top: 11.36%;
     bottom: 11.36%;
-    line-height: 60.44px;
+    line-height: 60px;
     
 }
 
 .clase-diseño{
     font-weight: 500;
-    font-size: 42px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    left: 4.5%;
+    left: 4.4%;
     right: 1.71%;
     top: 11.36%;
     bottom: 11.36%;
+    line-height: 49px;
 }
 
 .primer-parrafo{
@@ -127,7 +134,7 @@
     text-align: right;
     line-height: 11.44px;
     position: relative;
-    left: 325px;
+    left: 670px;
     margin-top: 80px;
     margin-bottom: 60px;
 }
@@ -135,7 +142,7 @@
 .titulo-ux{
     color: #1B4F9D;
     font-weight: 300;
-    font-size: 45px;
+    font-size: 40px;
     margin-top: 150px;
     margin-bottom: 50px;
     position: relative;
@@ -144,14 +151,23 @@
 
 .parrafo-dos{
     font-weight: 400;
-    line-height: 11.44px;
+    line-height: 100%;
     position: relative;
     left: 4.5%;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .tercer-div{
-    margin-left: 200px;
-    margin-top: 100px;
-    padding-left: 80px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 100px;
+   
+}
+
+#background-imagen{
+    background: linear-gradient(106.78deg, rgba(229, 47, 38, 0.3) 27.54%, rgba(229, 47, 38, 0) 94.21%), #1B4F9D;
+}
+
+.parrafo-tres{
+    color: #FFFFFF
 }
