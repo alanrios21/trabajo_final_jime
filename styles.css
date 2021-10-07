@@ -350,10 +350,10 @@
 .iconos-contacto{
     font-size: 1.8rem;
     margin-left: -50px;
-    margin-right: 20px;
+    margin-right: 25px;
     position: relative;
-    top: 3px;
-    margin-bottom: 600px;
+    top: 0px;
+    
 }
 
 .secciones-paginas{
@@ -421,6 +421,8 @@
     margin-top: -20px;
     position: relative;
     left: 20px;
+    
+    
 }
 
 .titulo-seguinos{
@@ -439,6 +441,38 @@
     margin-bottom: 100px;   
 }
 
-.quiero{
-    margin-right: -200px;
+.icono-direccion, .icono-telefono{
+    position: relative;
+    top: -2px;
+    
+}
+
+li .icono-direccion{
+    margin-right: 20px;
+}
+
+ul .quiero{
+    margin-left: -100px;
+    position: relative;
+    left: 40px;
+}
+
+.icono-email{
+    position: relative;
+    top: 2px;
+}
+
+.img-linkedin{
+    position: relative;
+    top: -3px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.ultima-lista{
+    position: relative;
+    
 }
