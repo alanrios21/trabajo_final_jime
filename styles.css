@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-   
-  }
 
   html,body
 {
@@ -328,7 +323,6 @@
 .footer-ayi{
     display: flex;
     flex-direction: row;
-    
      
     
 }
@@ -337,9 +331,11 @@
     display: flex;
     flex-direction: row;
     position: relative;
-    top: 500px;
+    bottom: 00px;
     right: 720px;
-    margin-bottom: 500px;
+
+    
+  
 }
 
 .img-redes{
@@ -381,7 +377,7 @@
     position: relative;
     right: 60px;
     line-height: 30px;
-    
+    z-index: 1;
 }
 
 .listas-paginas a{
@@ -430,7 +426,8 @@
     color: #1B4F9D;
     position: relative;
     left: 190px;
-    
+    bottom: -500px;
+    height: 30px;
     
 }
 
@@ -438,7 +435,9 @@
     position: relative;
     left: 240px;
     padding-left: 30px;
-    margin-bottom: 100px;   
+    height: 30px;
+    bottom: -500px;
+ 
 }
 
 .icono-direccion, .icono-telefono{
@@ -471,6 +470,7 @@ ul .quiero{
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
+
 
 .ultima-lista{
     position: relative;
