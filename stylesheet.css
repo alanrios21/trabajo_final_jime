@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section,
+article,
+footer {
+  width: 100vw;
+  height: 75vh;
+  position: absolute;
+}
+.primera-section {
+  background: linear-gradient(
+      270deg,
+      rgba(27, 79, 157, 0.4) 0%,
+      rgba(28, 28, 27, 0.2) 52.08%,
+      rgba(28, 28, 27, 0.4) 100%
+    ),
+    #1b4f9d;
+}
+
+.primera-section__text1 {
+  position: relative;
+  width: 50vw;
+  height: 35vh;
+  left: 15vh;
+  top: 5vw;
+}
+.primera-section__text1 h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+.primera-section__text1 h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2vw;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+.primera-section__text2 {
+  color: #ffffff;
+  position: relative;
+  width: 50vw;
+  height: 75vh;
+  left: 35vw;
+  top: 5vh;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3vw;
+  line-height: 157.19%;
+
+  /* or 31px */
+
+  text-align: right;
+}
+
+.segunda-section {
+  top: 75vh;
+}
+
+.segunda-section__text1 {
+  position: relative;
+  width: 50vw;
+  height: 35vh;
+  left: 20vw;
+  top: 7vh;
+}
+
+.segunda-section__text1 h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2vw;
+  line-height: 60px;
+  color: #1b4f9d;
+}
+
+.segunda-section__text1 p {
+  width: 25vw;
+  margin-top: 3rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 168%;
+
+  /* or 34px */
+  letter-spacing: 0.015em;
+
+  color: #000000;
+}
+
+.segunda-section__img {
+  position: relative;
+  height: 75vh;
+  width: 50vw;
+  left: 50vw;
+  top: -35vh;
+
+  background: url("/IMAGENES/leon-vbxyFxlgpjM-unsplash\ 1.png");
+  background-size: cover;
+  background-blend-mode: multiply;
+  filter: blur(rgba(0, 0, 0, 0.25));
+}
+
+.tercera-section {
+  top: 150vh;
+  background: linear-gradient(
+      106.78deg,
+      rgba(229, 47, 38, 0.3) 27.54%,
+      rgba(229, 47, 38, 0) 94.21%
+    ),
+    #1b4f9d;
+}
+.tercera-section__text1 {
+  position: relative;
+  width: 38vw;
+  height: 35vh;
+  left: 62vw;
+  top: -60vh;
+}
+.tercera-section__text1 h2 {
+  width: 25vw;
+  margin-left: 8rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3vw;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+.tercera-section__text1 p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 168%;
+  margin-top: 3rem;
+  width: 25vw;
+
+  /* or 34px */
+  text-align: right;
+  letter-spacing: 0.015em;
+
+  color: #ffffff;
+}
+.tercera-section__img {
+  position: relative;
+  width: 50vw;
+  height: 75vh;
+
+  background: url("/IMAGENES/filter-unsplash.png");
+  background-blend-mode: screen;
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cuarta-section {
+  top: 225vh;
+}
+.cuarta-section__text1 {
+  position: relative;
+  width: 50vw;
+  height: 35vh;
+  left: 10vw;
+  top: 7vh;
+}
+
+.cuarta-section__text1 h2 {
+  width: 25vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 60px;
+
+  /* identical to box height */
+
+  color: #1b4f9d;
+}
+.cuarta-section__text1 p {
+  width: 25vw;
+  margin-top: 1.5rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2vw;
+  line-height: 168%;
+
+  /* or 34px */
+  letter-spacing: 0.015em;
+
+  color: #000000;
+}
+
+.cuarta-section__img {
+  position: relative;
+  height: 75vh;
+  width: 50vw;
+  left: 50vw;
+  top: -35vh;
+  background: url("/IMAGENES/section4.png");
+  background-blend-mode: screen;
+  background-size: cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.fifth-section {
+  top: 300vh;
+}
+
+.seis-section {
+  top: 360vh;
+  background: linear-gradient(
+      270deg,
+      rgba(27, 79, 157, 0.4) 0%,
+      rgba(28, 28, 27, 0.2) 52.08%,
+      rgba(28, 28, 27, 0.4) 100%
+    ),
+    #1b4f9d;
+}
+
+.seis-section__video {
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  left: 5vw;
+  top: 2vh;
+}
+
+.siete-section {
+  top: 435vh;
+  background: linear-gradient(
+      106.78deg,
+      rgba(229, 47, 38, 0.3) 27.54%,
+      rgba(229, 47, 38, 0) 94.21%
+    ),
+    #1b4f9d;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.siete-section__text1 {
+  position: relative;
+  width: 50vw;
+  height: 35vh;
+  left: 10vw;
+  top: 7vh;
+}
+
+.siete-section__text1 h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  margin-top: 6rem;
+  width: 40vw;
+
+  color: #ffffff;
+}
+.siete-section__text1 a {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  color: #1b4f9d;
+
+  /* identical to box height */
+}
+
+.siete-section__mockup {
+  position: relative;
+  background: url("/IMAGENES/pantalla-cidi\ 1.png");
+  background-size: cover;
+
+  height: 70vh;
+  width: 50vw;
+  left: 50vw;
+  top: -46.5vh;
+}
+
+.footer-ayi {
+  top: 510vh;
+}
+.footer-ayi__logo {
+  background: url("/IMAGENES/AyiGroup_Logotipo-13\ \(1\).png");
+  position: relative;
+  background-size: 100%;
+
+  height: 20vh;
+  width: 10vw;
+  left: 7vw;
+  top: 8vh;
+}
+.footer-ayi__logo2 {
+  background: url("/IMAGENES/AyiGroup_Logotipo-07\ \(1\).png");
+  position: relative;
+  background-size: 100%;
+
+  height: 40vh;
+  width: 40vw;
+  left: -17vh;
+  top: -10vh;
+}
+.footer-ayi__secciones {
+  position: relative;
+  left: 30vw;
+  bottom: 50vh;
+  width: 20vw;
+}
+.footer-ayi__contacto {
+  position: relative;
+  left: 50vw;
+  top: -37vw;
+  width: 30vw;
+}
+h4 {
+  /* margin-left: 1.7rem; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  /* identical to box height */
+
+  color: #1b4f9d;
+}
+
+li {
+  list-style-type: none;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}

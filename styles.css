@@ -5,17 +5,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-.primera-section {
-  /* background-color: #1b4f9d; */
-  /* width: 1449px; */
-  /* position: absolute; */
+section,
+article {
+  width: 100vw;
+  height: 75vh;
   position: absolute;
-  width: 100%;
-  height: 703px;
-  left: 0px;
-  top: 0px;
-
+}
+.primera-section {
   background: linear-gradient(
       270deg,
       rgba(27, 79, 157, 0.4) 0%,
@@ -25,13 +21,22 @@
     #1b4f9d;
 }
 
-.primera-section__text1 > h1 {
-  position: absolute;
-  width: 177px;
-  height: 120px;
-  left: 101px;
-  top: 142px;
+.primera-section__text1 {
+  position: relative;
+  width: 50vw;
+  height: 35vw;
+  left: 10rem;
+  top: 5rem;
 
+  /* font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #ffffff; */
+}
+.primera-section__text1 h1 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 200;
@@ -40,16 +45,29 @@
 
   color: #ffffff;
 }
-
-.primera-section__text1 > h2 {
+.primera-section__text1 h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 67px;
   color: #ffffff;
-  position: absolute;
-  left: 1.71%;
+}
+
+/* .primera-section__text1 > h2 {
+  /* color: #ffffff;
+  position: relative;
+  width: 50vw;
+  height: 35vw;
+  left: 10rem;
+  top: 10rem; */
+
+/* left: 1.71%;
   right: 1.71%;
   top: 11.36%;
-  bottom: 11.36%;
+  bottom: 11.36%; */
 
-  font-family: Poppins;
+/* font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 45px;
@@ -58,11 +76,11 @@
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
-}
+} */
 
 .primera-section__text2 > p {
   color: #ffffff;
-  position: absolute;
+
   width: 765px;
   height: 190px;
   left: 574px;
@@ -100,8 +118,8 @@
   /* position: absolute; */
   /* display: flex;
   flex-direction: row; */
-  width: 1449px;
-  height: 812px;
+  /* width: 100%; */
+  /* height: 812px; */
   left: -9px;
   top: -109px;
 }
@@ -142,22 +160,21 @@
 }
 
 .segunda-section__img {
-  position: absolute;
   width: 1149px;
   height: 748px;
   left: 777px;
   top: 703px;
 
   background: url("/trabajo_final_jime/IMAGENES/leon-vbxyFxlgpjM-unsplash.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-blend-mode: multiply;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .tercera-section {
-  position: absolute;
-  width: 1440px;
-  height: 584px;
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 584px; */
   left: 0px;
   top: 1451px;
 
@@ -193,7 +210,6 @@
 }
 
 .tercera-section__text1 > p {
-  position: absolute;
   width: 410px;
   height: 313px;
   left: 896px;
@@ -226,9 +242,9 @@
 }
 
 .cuarta-section {
-  position: absolute;
-  width: 1440px;
-  height: 786px;
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 786px; */
   left: 0px;
   top: 2032px;
 }
@@ -249,7 +265,7 @@
 
 .cuarta-section__text1 > p {
   position: absolute;
-  width: 439px;
+  width: 50vw;
   height: 476px;
   left: 145px;
   top: 140px;
@@ -257,7 +273,7 @@
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 1.2vw;
   line-height: 168%;
 
   /* or 34px */
@@ -279,9 +295,9 @@
 }
 
 .fifth-section {
-  position: absolute;
-  width: 1440px;
-  height: 530px;
+  /* position: absolute; */
+  /* width: 1440px; */
+  /* height: 530px; */
   left: 0px;
   top: 2818px;
 }
