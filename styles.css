@@ -1,53 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.seccion1 {
+    background: linear-gradient(270deg,rgba(27, 79, 157, 0.4) 0%,rgba(28, 28, 27, 0.2) 52.08%,rgba(28, 28, 27, 0.4) 100%),#1b4f9d;
+    height: 768px;
+    width: auto;
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 40px;
+  }
+  
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 67px;
+  }
+  
+  h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 37px;
+    line-height: 60px;
+    color: #1b4f9d;
+  }
+  
+  h6 {
+    color: #1b4f9d;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 36px;
+    font-style: normal;
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+
+  .div1 {
+    position: absolute;
+    text-align: left;
+    left: 101px;
+    top: 142px;
+  }
+
+  .div2 {
+    text-align: right;
+    position: absolute;
+    width: 712px;
+    right: 101px;
+    top: 477px;
+    height: auto;
+  }
+
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.015em;
+    line-height: 168%;
+  }
+
+  .div2 p {
+    margin-top: 25px;
+  }
+
+  .seccion2 {
+    height: 700px;
+    width: auto;
+    color: black;
+    font-family: "Poppins";
+    font-style: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+  }
+
+  .div3 {
+    position: relative;
+    left: 145px;
+    top: 170px;
+    flex: 1;
+    margin-right: 7%;
+  }
+
+  .div3 h3 {
+    width: 368px;
+    margin-bottom: 25px;
+  }
+  .div3 p {
+    width: 370px;
+  }
+
 .img-PS{
     background-image: url("assets/ayips.jpg");
     background-size: cover;
     background-blend-mode: multiply;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-position-x: 8%;
+    opacity: 75%;
+    height: auto;
+    flex: 1;
 }
+
+.seccion3 {
+    height: 600px;
+    color: white;
+    font-family: "Poppins";
+    font-style: normal;
+    position: relative;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    background-color: #1b4f9d;
+    flex-direction: row-reverse;
+    background: linear-gradient(106.78deg,rgba(229, 47, 38, 0.3) 27.54%,rgba(229, 47, 38, 0) 94.21%),#1b4f9d;
+  }
+
+  .div4 {
+    text-align: right;
+    position: relative;
+    width: 640px;
+    top: 140px;
+    height: 400px;
+    flex: 1;
+    margin-left: -95px;
+  }
+
+  .div4 h3 {
+    margin-right: 145px;
+    margin-bottom: 25px;
+  }
+
+  .div4 p {
+    width: 360px;
+    position: relative;
+    left: 575px;
+  }
+
+  #h3-ux-cont {
+    color: white;
+  }
 
 .img-content {
     background-image: url("assets/ayicontent.jpg");
-    width: 777px;
-    height: 584px;
-    left: 0px;
-    top: 1451px;
-    background-blend-mode: screen;
+    height: 600px;
+    position: relative;
+    background-size: cover;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    mix-blend-mode: screen;
+    flex: 1;
+    opacity: 85%;
 }
+
+.seccion4 {
+    height: 700px;
+    display: flex;
+    background-color: white;
+  }
+
+  .div5 {
+    position: relative;
+    left: 145px;
+    top: 170px;
+    flex: 1;
+    margin-right: 7%;
+    height: fit-content;
+  }
+
+  .div5 p {
+    width: 400px;
+    margin-bottom: 25px;
+  }
+
 
 .img-design{
     background-image: url("assets/ayidesign.jpg");
-    background-size: cover;
+    flex: 1;
     background-blend-mode: multiply;
-    height: 783px;
-    width: 944px;
+    background-size: cover;
+    background-position-x: 30%;
 }
+
+.seccion5 {
+    height: 300px;
+    margin-bottom: 140px;
+    margin-top: 150px;
+  }
+
+  .seccion5 li {
+    list-style: none;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 160.19%;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #1b4f9d;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+
+  .seccion6 {
+    background: linear-gradient(270deg,rgba(27, 79, 157, 0.4) 0%,rgba(28, 28, 27, 0.2) 52.08%,rgba(28, 28, 27, 0.4) 100%),#1b4f9d;
+    height: 1080px;
+  }
+  
+  .seccion6 div {
+    height: 450px;
+    width: auto;
+    padding-top: 10%;
+    padding-left: 20%;
+  }
+  
+  .seccion7 {
+    height: 642px;
+    width: auto;
+    background: linear-gradient(
+        106.78deg,
+        rgba(229, 47, 38, 0.3) 27.54%,
+        rgba(229, 47, 38, 0) 94.21%
+      ),
+      #1b4f9d;
+    margin-top: -1px;
+    display: flex;
+  }
+
+  .div-behance a {
+    background-color: white;
+    border-radius: 26px;
+    border: none;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 36px;
+    text-align: center;
+    color: #1b4f9d;
+    text-decoration: none;
+    padding: 11px 29px;
+    cursor: pointer;
+    padding-left: 35px;
+  }
+
+  .div-behance a {
+    width: 30px;
+    margin-left: 8px;
+  }
+
+  .div-behance {
+    position: relative;
+    left: 153px;
+    top: 180px;
+    flex: 1;
+  }
+
+  .div-behance h2 {
+    color: white;
+    width: 400px;
+    font-size: 41px;
+    line-height: 72px;
+    margin-bottom: 70px;
+    font-family: "Poppins";
+  }
 
 .img-cidi{
     background-image: url("assets/pantalla-cidi.png");
-    background-size: cover;
-    height: 614px;
-    width: 853px;
-    left: 658px;
-    top: 4124px;
-    border-radius: 0px;
+    background-size: 467px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 467px;
+    height: 592px;
+    right: 135px;
+    top: 50px;
 
 }
 
-.logo-ayi{
-    background-image: url("assets/AyiGroup-logo1.png");
-    background-size: cover;
-    width: 246px;
-    height: 232px;
-    left: 96px;
-    top: 4819px;
-}
-
-.nombre-ayi{
+footer {
+    position: relative;
+    background-color: white;
+    height: 540px;
+    display: flex;
+    margin-bottom: 0px;
     background-image: url("assets/AyiGroup-logo2.png");
-    background-size: cover;
-    width: 427px;
-    height: 151px;
-    left: 18px;
-    top: 5039px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position-x: -180px;
+    background-position-y: 120px;
+  }
+
+  footer ul {
+    font-weight: 400;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .secciones ul li {
+    list-style-type: none;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .ayi-imagen,.secciones,.contacto {
+    flex: 1;
 }
+
+#ayi-imagen {
+    width: 250px;
+    height: 250px;
+    margin-top: 90px;
+    margin-left: 95px;
+}
+
+
+.secciones h6 {
+    position: relative;
+    margin-left: 50px;
+  }
+  
+  .secciones li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .secciones,
+  .contacto {
+    height: 300px;
+  }
+  
+  .contacto {
+    position: relative;
+    margin-left: 0px;
+  }
+  
+  .contacto ul li {
+    list-style-type: none;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .contacto h6 {
+    margin-left: 30px;
+  }
+  
+  .contacto ul {
+    width: 370px;
+    margin-right: 10px;
+  }
+
+  .redes {
+    height: 100px;
+    position: relative;
+    right: 100px;  
+  }
+
+  .seguinos h6 {
+    width: 100px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 300px;
+  }
+
+  .redes img {
+     height: 25px;
+     margin-left: 150px;
+  }
+
+  .redes ul{
+    list-style-type: none;
+  }
+
+
